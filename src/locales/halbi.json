@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "home": "हल्बी - घर",
+    "about": "हल्बी - बारे में",
+    "services": "हल्बी - सेवाएं",
+    "contact": "हल्बी - संपर्क"
+  },
+  "topbar": {
+    "platform": "राष्ट्रिय स्वास्थ्य प्लेटफ़ॉर्म",
+    "guest": "अतिथि",
+    "online": "ऑनलाइन",
+    "offline": "ऑफ़लाइन",
+    "notifications": "सूचनाएँ",
+    "preview": "पूर्वावलोकन",
+    "toggle_theme": "थीम बदलें",
+    "language_select": "भाषा चुनें",
+    "theme": { "light": "रोशनी", "dark": "अंधेरा" }
+  },
+  "auth": {
+    "authentication": "प्रमाणीकरण",
+    "secure_sign_in": "सुरक्षित साइन इन",
+    "use_demo": "डेमो फ़्लो का उपयोग करें",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "forgot_password": "पासवर्ड भूल गए?",
+    "create_account": "खाता बनाएं",
+    "sign_in": "साइन इन",
+    "signing_in": "साइन इन हो रहा है…",
+    "register": "रजिस्टर",
+    "creating_account": "खाता बनाया जा रहा है…",
+    "full_name": "पूरा नाम",
+    "phone_number": "फोन नंबर",
+    "primary_language": "मुख्य भाषा",
+    "role": "भूमिका",
+    "already_have_account": "पहले से खाता है?",
+    "sign_in_now": "अब साइन इन करें"
+  },
+  "home": {
+    "app_name": "स्वास्थ्य साथी 360",
+    "title": "इलाके के स्वास्थ्य के लिए AI आधारित समाधान",
+    "description": "बहुभाषी PWA जो नागरिकों, ASHA और चिकित्सकों के लिए सहायक है।",
+    "get_started": "शुरू करें",
+    "open_dashboard": "डैशबोर्ड खोलें",
+    "platform_goals_eyebrow": "प्लेटफ़ॉर्म लक्ष्य",
+    "platform_goals_title": "स्वास्थ्य सेवा तक पहुँच और संचालन",
+    "platform_goals_description": "इंटरऑपरेबिलिटी और आसान अपनाने के लिए संरचित सिस्टम।",
+    "supported_languages": "समर्थित भाषाएँ",
+    "user_roles": "उपयोगकर्ता भूमिकाएँ",
+    "offline_mode": "ऑफ़लाइन मोड",
+    "deployment_targets": "डिप्लॉयमेंट लक्ष्य",
+    "deployment_targets_value": "सामुदायिक क्लिनिक, आउटरीच वैन, जिला स्वास्थ्य केंद्र"
+  },
+  "sidebar": {
+    "swasthya": "स्वास्थ्य साथी 360",
+    "command_center": "ग्रामीण स्वास्थ्य कमान्ड सेंटर",
+    "one_platform": "नागरिक, ASHA, डॉक्टर और प्रशासक के लिए एक प्लेटफ़ॉर्म।",
+    "signed_in_as": "साइन इन",
+    "public": "सार्वजनिक",
+    "dashboards": "डैशबोर्ड"
+  },
+  "dashboard": {
+    "citizen_eyebrow": "नागरिक डैशबोर्ड",
+    "citizen_title": "अपने देखभाल, अभिलेख और रिमाइंडर प्रबंधित करें",
+    "citizen_description": "दैनिक स्वास्थ्य इंटरैक्शन और इमरजेंसी सहायता के लिए अनुकूलित।",
+    "doctor_eyebrow": "डॉक्टर डैशबोर्ड",
+    "doctor_title": "रोगी समीक्षा और प्रिस्क्रिप्शन के लिए कार्यप्रवाह",
+    "doctor_description": "त्रायज और हैंडऑफ़ सारांश के लिए समर्थन।",
+    "asha_eyebrow": "ASHA डैशबोर्ड",
+    "asha_title": "फ़ील्ड ऑपरेशंस और हाउसहोल्ड आउटरीच",
+    "asha_description": "भर्ती, घटना पंजीकरण और परिवार मार्गदर्शन के उपकरण।",
+    "admin_eyebrow": "प्रशासन डैशबोर्ड",
+    "admin_title": "प्रशासन, एनालिटिक्स और भूमिका प्रबंधन",
+    "admin_description": "प्लेटफ़ॉर्म उपयोग और पहुँच प्रबंधन की निगरानी करें।"
+  },
+  "metrics": {
+    "patients_in_queue": "प्रतीक्षा सूची में रोगी",
+    "appointments_today": "आज की नियुक्तियाँ",
+    "prescriptions_issued": "जारी प्रिस्क्रिप्शन",
+    "summaries_generated": "सार संकलित",
+    "active_users": "सक्रिय उपयोगकर्ता",
+    "verified_clinicians": "सत्यापित चिकित्सक",
+    "field_workers": "फ़ील्ड कर्मचारी",
+    "reports_delivered": "रिपोर्ट प्रदान की गई",
+    "upcoming_appointments": "आगामी नियुक्तियाँ",
+    "active_reminders": "सक्रिय रिमाइंडर",
+    "vaccinations_tracked": "टीकाकरण ट्रैक किए गए",
+    "health_records": "स्वास्थ्य अभिलेख"
+  },
+  "doctor": {
+    "cards": {
+      "patient_list": { "title": "रोगी सूची", "description": "नागरिकों और रेफर किए गए रोगियों को एक कतार में देखें।" },
+      "medical_history": { "title": "लैब और इतिहास", "description": "पिछले रिकॉर्ड, लैब और संदर्भ नोट देखें।" },
+      "prescription_management": { "title": "प्रिस्क्रिप्शन प्रबंधन", "description": "उपचार योजना और डिजिटल प्रिस्क्रिप्शन जारी करें।" },
+      "appointment_management": { "title": "अपॉइंटमेंट प्रबंधन", "description": "कंसल्टेशन और फॉलो-अप समन्वय करें।" },
+      "medication_review": { "title": "दवा समीक्षा", "description": "अनुपालन और वर्तमान दवा इतिहास जांचें।" },
+      "voice_input_support": { "title": "वॉइस इनपुट समर्थन", "description": "आवाज़-आधारित AI कार्यप्रवाह के लिए नोट कैप्चर करें।" }
+    }
+  },
+  "admin": {
+    "cards": {
+      "user_management": { "title": "उपयोगकर्ता प्रबंधन", "description": "खाता स्थिति और अनुमतियाँ प्रबंधित करें।" },
+      "doctor_asha_management": { "title": "डॉक्टर और ASHA प्रबंधन", "description": "स्टाफ को स्वीकृत और असाइन करें।" },
+      "analytics_dashboard": { "title": "एनालिटिक्स डैशबोर्ड", "description": "गोद लेने और उपयोग संकेतक ट्रैक करें।" },
+      "reports_dashboard": { "title": "रिपोर्ट डैशबोर्ड", "description": "नीति और कार्यक्रम रिपोर्ट के लिए सारांश निर्यात करें।" },
+      "security_overview": { "title": "सुरक्षा अवलोकन", "description": "एक्सेस लॉग और जोखिम फ़्लैग्स की समीक्षा करें।" },
+      "deployment_readiness": { "title": "डिप्लॉयमेंट पढ़ाई", "description": "पर्यावरण स्वास्थ्य और फीचर रोलआउट ट्रैक करें।" }
+    }
+  },
+  "user": {
+    "cards": {},
+    "emergency": { "title": "आपातकालीन संपर्क", "description": "स्थानीय आपातकालीन नंबर, ASHA संपर्क और देखभालकर्ता विवरण तक त्वरित पहुंच।", "help_text": "आपातकालीन संपर्क, टीकाकरण स्थिति और प्रिस्क्रिप्शन सिंक करने के लिये बैकएंड का प्रयोग करें।", "update_button": "आपातकालीन प्रोफ़ाइल अपडेट करें" }
+  },
+  "features": {
+    "ai_symptom_support": "AI लक्षण समर्थन",
+    "multilingual_access": "बहुभाषी पहुँच",
+    "offline_first": "ऑफ़लाइन-फ़र्स्ट वर्कफ़्लो",
+    "secure_role_control": "सुरक्षित भूमिका नियंत्रण",
+    "digital_health_records": "डिजिटल स्वास्थ्य रिकॉर्ड",
+    "rural_first": "ग्रामीण-प्रथम UX",
+    "ai_symptom_support_description": "हल्के AI मॉडलों के साथ मार्गदर्शित लक्षण इनपुट।",
+    "multilingual_access_description": "स्थानीय भाषाओं के लिए अनुवादित सामग्री और वर्कफ़्लो।",
+    "offline_first_description": "अस्थायी कनेक्टिविटी के लिए डेटा सिंक और कतार।",
+    "secure_role_control_description": "क्लिनिकल सुरक्षा के लिये सशक्त पहुँच नियंत्रण।",
+    "digital_health_records_description": "परमिशनयुक्त रिकॉर्ड साझा करने के लिये स्थायी रिकॉर्ड।",
+    "rural_first_description": "कम साक्षरता और सीमित नेटवर्क के लिये डिज़ाइन।"
+  },
+  
+  "health_highlights": [
+    "हल्बी: बहुभाषी मार्गदर्शन।",
+    "हल्बी: कम बैंडविड्थ के लिये ऑफ़लाइन वर्कफ़्लो।",
+    "हल्बी: भूमिका-आधारित डैशबोर्ड।",
+    "हल्बी: AI सहायता और स्वास्थ्य शिक्षा।"
+  ],
+  "roles": {
+    "CITIZEN": "नागरिक",
+    "ASHA_WORKER": "ASHA वर्कर",
+    "DOCTOR": "डॉक्टर",
+    "ADMIN": "प्रशासक"
+  },
+  "contact": {
+    "eyebrow": "संपर्क करें",
+    "title": "सपोर्ट और भागीदारी",
+    "description": "डिप्लॉयमेंट, एकीकरण, या तकनीकी समर्थन के लिये संपर्क करें।",
+    "actions": { "send_message": "संदेश भेजें" },
+    "methods": {
+      "email": { "title": "ईमेल" },
+      "phone": { "title": "फोन" },
+      "coverage": { "title": "कवरेज", "value": "भारत भर के ग्रामीण स्वास्थ्य जिले" }
+    }
+  },
+  "about": { "eyebrow": "प्लेटफ़ॉर्म के बारे में", "title": "ग्रामीण भारत के लिए बनाया गया", "description": "समुदाय स्वास्थ्य के लिये खुली आर्किटेक्चर और संदर्भ कार्यान्वयन।" },
+  "services": { "eyebrow": "प्लेटफ़ॉर्म सेवाएँ", "title": "हम क्या प्रदान करते हैं", "description": "डिप्लॉयमेंट, प्रशिक्षण, और सार्वजनिक स्वास्थ्य के लिये हल्के AI सेवाएँ।" },
+  "forgot_password": { "eyebrow": "पासवर्ड रिकवरी", "title": "सुरक्षित रूप से खाता पुनर्प्राप्त करें", "description": "रिकवरी फ्लो को बाद में ईमेल या मोबाइल OTP से कनेक्ट किया जा सकता है।", "help_text": "यह इंटरफ़ेस रिकवरी के लिये है; भौतिक ट्रांसपोर्ट बैकएंड पर निर्भर करता है।", "actions": { "send_reset_link": "रिसेट लिंक भेजें" } },
+  "not_found": { "eyebrow": "नहीं मिला", "title": "अनुरोधित मार्ग अस्तित्व में नहीं है", "description": "नेविगेशन शेल का उपयोग करके सार्वजनिक पृष्ठों और डैशबोर्ड पर जाएँ।", "actions": { "return_home": "घर लौटें" } },
+  "common": {
+    "ok": "ठीक है",
+    "cancel": "रद्द करें",
+    "yes": "हाँ",
+    "no": "नहीं"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "nav": {
+    "home": "छत्तीसगढ़ी - Home",
+    "about": "छत्तीसगढ़ी - About",
+    "services": "छत्तीसगढ़ी - Services",
+    "contact": "छत्तीसगढ़ी - Contact"
+  },
+  "topbar": {
+    "platform": "छत्तीसगढ़ी स्वास्थ्य प्लेटफ़ॉर्म",
+    "guest": "अतिथि",
+    "online": "Online",
+    "offline": "Offline",
+    "notifications": "सूचनाएँ",
+    "preview": "Preview",
+    "theme": { "light": "Light", "dark": "Dark" }
+  },
+  "auth": {},
+  "home": {},
+  "sidebar": {},
+  "dashboard": {},
+  "features": {},
+  "health_highlights": [],
+  "roles": {},
+  "common": {}
+}

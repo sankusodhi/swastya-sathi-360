@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "topbar": {
+    "platform": "National level healthcare platform",
+    "guest": "Guest",
+    "online": "Online",
+    "offline": "Offline",
+    "notifications": "Notifications",
+    "preview": "Preview",
+    "toggle_theme": "Toggle theme",
+    "language_select": "Select language",
+    "theme": { "light": "Light", "dark": "Dark" }
+  },
+  "auth": {
+    "authentication": "Authentication",
+    "secure_sign_in": "Secure sign in for role-based healthcare access",
+    "use_demo": "Use the demo flow to explore the secure routing, protected dashboards, and multilingual shell.",
+    "email": "Email",
+    "password": "Password",
+    "forgot_password": "Forgot password?",
+    "create_account": "Create an account",
+    "sign_in": "Sign in",
+    "signing_in": "Signing in…",
+    "register": "Register",
+    "creating_account": "Creating account…",
+    "full_name": "Full name",
+    "phone_number": "Phone number",
+    "primary_language": "Primary language",
+    "role": "Role",
+    "already_have_account": "Already have an account?",
+    "sign_in_now": "Sign in now"
+  },
+  "home": {
+    "app_name": "Swasthya Saathi 360",
+    "title": "AI powered rural healthcare infrastructure built for India’s last mile",
+    "description": "A scalable, multilingual PWA that helps citizens find care, ASHA workers manage field operations, doctors coordinate care, and administrators monitor outcomes.",
+    "get_started": "Get started",
+    "open_dashboard": "Open dashboard",
+    "platform_goals_eyebrow": "Platform goals",
+    "platform_goals_title": "Healthcare access with measurable operational depth",
+    "platform_goals_description": "The system is structured for interoperability, traceability, and low-friction adoption across community clinics and outreach visits.",
+    "supported_languages": "Supported languages",
+    "user_roles": "User roles",
+    "offline_mode": "Offline mode",
+    "deployment_targets": "Deployment targets",
+    "deployment_targets_value": "Community clinics, outreach vans, and district health centers"
+  },
+  "sidebar": {
+    "swasthya": "Swasthya Saathi 360",
+    "command_center": "Rural healthcare command center",
+    "one_platform": "One platform for citizens, ASHA workers, doctors, and administrators.",
+    "signed_in_as": "Signed in as",
+    "public": "Public",
+    "dashboards": "Dashboards"
+  },
+  "dashboard": {
+    "citizen_eyebrow": "Citizen dashboard",
+    "citizen_title": "Manage your care, records, and reminders in one place",
+    "citizen_description": "The citizen dashboard is optimized for daily healthcare interactions, family tracking, and emergency support.",
+    "doctor_eyebrow": "Doctor dashboard",
+    "doctor_title": "Clinical workflow for patient review, prescriptions, and appointments",
+    "doctor_description": "Supports triage, longitudinal care, and concise handoff summaries for efficient practice in distributed settings.",
+    "asha_eyebrow": "ASHA dashboard",
+    "asha_title": "Field operations and household outreach for community health",
+    "asha_description": "Tools to manage visits, register health events, and coach families in low-bandwidth settings.",
+    "admin_eyebrow": "Admin dashboard",
+    "admin_title": "Administration, analytics, and role management for healthcare operations",
+    "admin_description": "Monitor platform usage, manage access, and export reports for program leadership and district reviews."
+  },
+  "metrics": {
+    "patients_in_queue": "Patients in queue",
+    "appointments_today": "Appointments today",
+    "prescriptions_issued": "Prescriptions issued",
+    "summaries_generated": "Summaries generated",
+    "active_users": "Active users",
+    "verified_clinicians": "Verified clinicians",
+    "field_workers": "Field workers",
+    "reports_delivered": "Reports delivered",
+    "upcoming_appointments": "Upcoming appointments",
+    "active_reminders": "Active reminders",
+    "vaccinations_tracked": "Vaccinations tracked",
+    "health_records": "Health records"
+  },
+  "doctor": {
+    "cards": {
+      "patient_list": { "title": "Patient list", "description": "Review citizens and referred patients in one queue." },
+      "medical_history": { "title": "Medical history", "description": "Access prior records, labs, and referral notes." },
+      "prescription_management": { "title": "Prescription management", "description": "Issue treatment plans and digital prescriptions." },
+      "appointment_management": { "title": "Appointment management", "description": "Coordinate consultations, follow-ups, and telehealth." },
+      "medication_review": { "title": "Medication review", "description": "Check adherence and current medicine history." },
+      "voice_input_support": { "title": "Voice input support", "description": "Capture notes using future voice-enabled AI workflows." }
+    }
+  },
+  "admin": {
+    "cards": {
+      "user_management": { "title": "User management", "description": "Manage account status, permissions, and verification flows." },
+      "doctor_asha_management": { "title": "Doctor & ASHA management", "description": "Approve and assign domain-specific staff." },
+      "analytics_dashboard": { "title": "Analytics dashboard", "description": "Track adoption, usage, and service indicators." },
+      "reports_dashboard": { "title": "Reports dashboard", "description": "Export summaries for policy and program reporting." },
+      "security_overview": { "title": "Security overview", "description": "Review access logs, auth events, and risk flags." },
+      "deployment_readiness": { "title": "Deployment readiness", "description": "Track environment health and feature rollout status." }
+    }
+  },
+  "user": {
+    "cards": {},
+    "emergency": { "title": "Emergency contacts", "description": "Fast access to local emergency numbers, ASHA contacts, and caregiver details.", "help_text": "Use the backend to sync emergency contacts, vaccination status, prescriptions, and AI health guidance.", "update_button": "Update emergency profile" }
+  },
+  "features": {
+    "ai_symptom_support": "AI symptom support",
+    "multilingual_access": "Multilingual access",
+    "offline_first": "Offline-first workflow",
+    "secure_role_control": "Secure role control",
+    "digital_health_records": "Digital health records",
+    "rural_first": "Rural-first UX",
+    "ai_symptom_support_description": "Guided symptom intake and triage using lightweight AI models.",
+    "multilingual_access_description": "Content and workflows localized for local languages and dialects.",
+    "offline_first_description": "Data sync and queueing built for intermittent connectivity.",
+    "secure_role_control_description": "Strong access controls and role-based routing for clinical safety.",
+    "digital_health_records_description": "Persistent, portable records with consented sharing across providers.",
+    "rural_first_description": "Design patterns tuned for low literacy and constrained networks."
+  },
+
+  "health_highlights": [
+    "Multilingual guidance for Hindi, Gondi, Halbi, and Chhattisgarhi speakers.",
+    "Offline-first workflows for low bandwidth rural environments.",
+    "Role-based dashboards for citizens, ASHA workers, doctors, and administrators.",
+    "AI assistance for symptoms, report summaries, and health education."
+  ],
+  "contact": {
+    "eyebrow": "Get in touch",
+    "title": "Contact support and partnerships",
+    "description": "Reach out for deployments, integrations, or technical support.",
+    "actions": { "send_message": "Send message" },
+    "methods": {
+      "email": { "title": "Email" },
+      "phone": { "title": "Phone" },
+      "coverage": { "title": "Coverage", "value": "Rural health districts across India" }
+    }
+  },
+  "about": { "eyebrow": "About the platform", "title": "Built for rural India", "description": "An open architecture and reference implementation for community healthcare delivery." },
+  "services": { "eyebrow": "Platform services", "title": "What we provide", "description": "Deployment, training, and lightweight AI services tailored for public health." },
+  "forgot_password": { "eyebrow": "Password recovery", "title": "Recover account access securely", "description": "Forgot-password flows can later be wired to email or mobile OTP and a verified reset token workflow.", "help_text": "This scaffold includes the dedicated route and UI surface for recovery, but leaves transport integration to your backend implementation.", "actions": { "send_reset_link": "Send reset link" } },
+  "not_found": { "eyebrow": "Not found", "title": "The requested route does not exist", "description": "Use the navigation shell to move between the public pages and role-based dashboards.", "actions": { "return_home": "Return home" } },
+  "roles": {
+    "CITIZEN": "Citizen",
+    "ASHA_WORKER": "ASHA Worker",
+    "DOCTOR": "Doctor",
+    "ADMIN": "Administrator"
+  },
+  "common": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "yes": "Yes",
+    "no": "No"
+  }
+}

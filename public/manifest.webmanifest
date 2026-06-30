@@ -1,0 +1,19 @@
+{
+  "name": "Swasthya Saathi 360",
+  "short_name": "Swasthya Saathi",
+  "description": "AI powered rural healthcare platform for citizens, ASHA workers, doctors, and administrators.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f8fffb",
+  "theme_color": "#0f766e",
+  "lang": "en-IN",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
