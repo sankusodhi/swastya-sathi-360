@@ -4,7 +4,9 @@ import { Card } from '@/components/ui/Card'
 import type { DashboardMetric } from '@/types/domain'
 import { useTranslation } from '@/hooks/useTranslation'
 
-const rawMetrics: Array<Omit<DashboardMetric, 'label'>> & { labelKey: string }[] = [
+type DashboardMetricInput = Omit<DashboardMetric, 'label'> & { labelKey: string }
+
+const rawMetrics: DashboardMetricInput[] = [
   { labelKey: 'dashboard.metrics.patients_added', value: '126', delta: '18 this month', tone: 'emerald' },
   { labelKey: 'dashboard.metrics.pregnancy_followups', value: '27', delta: '5 high risk cases', tone: 'amber' },
   { labelKey: 'dashboard.metrics.vaccine_tracking', value: '212', delta: '98% coverage', tone: 'sky' },
@@ -22,7 +24,12 @@ const features = [
 
 export function AshaDashboard() {
   const { t } = useTranslation()
-  const metrics: DashboardMetric[] = rawMetrics.map((m) => ({ ...m, label: t(m.labelKey) }))
+  const metrics: DashboardMetric[] = rawMetrics.map((m) => ({
+    label: t(m.labelKey),
+    value: m.value,
+    delta: m.delta,
+    tone: m.tone,
+  }))
 
   return (
     <DashboardFrame

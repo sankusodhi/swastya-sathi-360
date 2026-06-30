@@ -5,7 +5,9 @@ import { Card } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
 import type { DashboardMetric } from '@/types/domain'
 
-const rawMetrics = [
+type DashboardMetricInput = Omit<DashboardMetric, 'label'> & { labelKey: string }
+
+const rawMetrics: DashboardMetricInput[] = [
   { labelKey: 'dashboard.metrics.upcoming_appointments', value: '04', delta: '+2 this week', tone: 'sky' },
   { labelKey: 'dashboard.metrics.active_reminders', value: '12', delta: '3 urgent medicine reminders', tone: 'emerald' },
   { labelKey: 'dashboard.metrics.vaccinations_tracked', value: '08', delta: 'All on schedule', tone: 'amber' },
@@ -21,7 +23,12 @@ const features = [
 
 export function UserDashboard() {
   const { t } = useTranslation()
-  const metrics: DashboardMetric[] = rawMetrics.map((m) => ({ ...m, label: t(m.labelKey) }))
+  const metrics: DashboardMetric[] = rawMetrics.map((m) => ({
+    label: t(m.labelKey),
+    value: m.value,
+    delta: m.delta,
+    tone: m.tone,
+  }))
   return (
     <DashboardFrame
       eyebrow={t('dashboard.citizen_eyebrow')}

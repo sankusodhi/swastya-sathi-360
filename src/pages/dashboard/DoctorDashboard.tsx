@@ -4,7 +4,9 @@ import { Card } from '@/components/ui/Card'
 import type { DashboardMetric } from '@/types/domain'
 import { useTranslation } from '@/hooks/useTranslation'
 
-const rawMetrics = [
+type DashboardMetricInput = Omit<DashboardMetric, 'label'> & { labelKey: string }
+
+const rawMetrics: DashboardMetricInput[] = [
   { labelKey: 'dashboard.metrics.patients_in_queue', value: '34', delta: '8 pending review', tone: 'sky' },
   { labelKey: 'dashboard.metrics.appointments_today', value: '14', delta: '6 telehealth', tone: 'emerald' },
   { labelKey: 'dashboard.metrics.prescriptions_issued', value: '23', delta: '4 require follow-up', tone: 'amber' },
@@ -22,7 +24,12 @@ const features = [
 
 export function DoctorDashboard() {
   const { t } = useTranslation()
-  const metrics: DashboardMetric[] = rawMetrics.map((m) => ({ ...m, label: t(m.labelKey) }))
+  const metrics: DashboardMetric[] = rawMetrics.map((m) => ({
+    label: t(m.labelKey),
+    value: m.value,
+    delta: m.delta,
+    tone: m.tone,
+  }))
 
   return (
     <DashboardFrame

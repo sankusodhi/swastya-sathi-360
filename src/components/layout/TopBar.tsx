@@ -9,7 +9,7 @@ import { LanguageSelector } from '@/components/LanguageSelector'
 import { useTranslation } from '@/hooks/useTranslation'
 
 export function TopBar() {
-  const { language, setLanguage } = useLocale()
+  const { language } = useLocale()
   const { session, logout } = useAuth()
   const { theme, toggleTheme } = useTheme()
   const isOnline = useOnlineStatus()
